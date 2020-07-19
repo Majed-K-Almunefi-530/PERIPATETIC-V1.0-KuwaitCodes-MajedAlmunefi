@@ -27,6 +27,7 @@ import java.util.ArrayList;
 
 public class AusBookHotel extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +64,7 @@ public class AusBookHotel extends AppCompatActivity {
         rv.setLayoutManager(lmm);
 
 
-        AfricahotelAdapter bookerr = new AfricahotelAdapter(books,this);
+        AusBookHotelAdapter bookerr = new AusBookHotelAdapter(books,this);
         rv.setAdapter(bookerr);
 
         Toast toast = Toast.makeText(getApplicationContext(),

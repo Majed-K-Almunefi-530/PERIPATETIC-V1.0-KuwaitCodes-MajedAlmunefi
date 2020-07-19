@@ -57,7 +57,7 @@ public class AusParks extends AppCompatActivity {
         rv.setLayoutManager(lm);
 
 
-        londonParkAdapter booker = new londonParkAdapter(books,this);
+        AusParkAdapter booker = new AusParkAdapter(books,this);
         rv.setAdapter(booker);
 
 
