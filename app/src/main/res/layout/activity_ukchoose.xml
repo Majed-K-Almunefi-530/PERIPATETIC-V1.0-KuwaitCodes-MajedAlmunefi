@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12222C"
+    tools:context=".SingaporeCity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee_shade"
+                android:text="Please choose a city"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:id="@+id/presstoviewlondon"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/image"
+                        android:src="@drawable/londonl"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:textColor="#262626"
+                        android:layout_below="@+id/image"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="London"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/cinzel_decorative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="16dp"
+                        android:drawablePadding="10dp"
+                        android:ellipsize="end"
+                        android:maxLines="3"
+                        android:text="London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

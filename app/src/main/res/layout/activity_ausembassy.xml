@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ausembassy"
+    android:background="#12222C"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Kuwait embassy info."
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        android:id="@+id/kuku"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/callembassy"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/kuku"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#004E1818"
+        >
+
+
+        <ImageView
+            android:id="@+id/callus"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center"
+            android:src="@drawable/callus"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mailembassy"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignTop="@+id/callembassy"
+        android:backgroundTint="#008B2F2F"
+        >
+
+
+        <ImageView
+            android:id="@+id/masseagaus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/share"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/visitembassy"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignTop="@+id/mailembassy"
+        android:backgroundTint="#008B2F2F"
+        >
+
+
+        <ImageView
+            android:id="@+id/visitu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/location"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemBackground="@color/favcolor"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white" />
+
+</RelativeLayout>

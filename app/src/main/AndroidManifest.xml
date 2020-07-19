@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.peripatetic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".AusConvert" />
+        <activity android:name=".AusLang" />
+        <activity android:name=".Ausembassy" />
+        <activity android:name=".Ausres" />
+        <activity android:name=".AusParks" />
+        <activity android:name=".AusMalls" />
+        <activity android:name=".AusBookHotel" />
+        <activity android:name=".Ausinfoorbook" />
+        <activity android:name=".AusChooseCity" />
+        <activity android:name=".Austrailia" />
+        <activity android:name=".Africamoneyconvert" />
+        <activity android:name=".Africalang" />
+        <activity android:name=".Africaembassy" />
+        <activity android:name=".Africares" />
+        <activity android:name=".Africaparks" />
+        <activity android:name=".Africamalls" />
+        <activity android:name=".Africabookhotel" />
+        <activity android:name=".Africainfoorbook" />
+        <activity android:name=".Africachoosecity" />
+        <activity android:name=".ChooseinAfarica" />
+        <activity android:name=".Langorlando" />
+        <activity android:name=".convertmoneyorlando" />
+        <activity android:name=".Embassyorlando" />
+        <activity android:name=".ResturanteInOrlando" />
+        <activity android:name=".OrlandoParks" />
+        <activity android:name=".MallInOrlando" />
+        <activity android:name=".activitybookhotel" />
+        <activity android:name=".orlandoinfoorbook" />
+        <activity android:name=".Orlando" />
+        <activity android:name=".Northamaricachoosecountry" />
+        <activity android:name=".convertmoneyuk" />
+        <activity android:name=".embassyuk" />
+        <activity android:name=".languagesuk" />
+        <activity android:name=".resLondon" />
+        <activity android:name=".LondonParkActivity" />
+        <activity android:name=".malllac" />
+        <activity android:name=".ukhotel" />
+        <activity android:name=".ukinfoorbook" />
+        <activity android:name=".ukchoose" />
+        <activity android:name=".eorpoecountry" />
+        <activity android:name=".Languagessingapore" />
+        <activity android:name=".singaporeexchange" />
+        <activity android:name=".singaporeinfo" />
+        <activity android:name=".resturante" />
+        <activity android:name=".Parkactivitysingapore" />
+        <activity android:name=".Mallbook" />
+        <activity android:name=".singabooktickets" />
+        <activity android:name=".singaporecitychoose" />
+        <activity android:name=".SingaporeCity" />
+        <activity android:name=".AsiaCountry" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".Name_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

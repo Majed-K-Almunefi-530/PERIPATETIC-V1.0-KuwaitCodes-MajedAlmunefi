@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro</item>
+        <item>@font/alike_angular</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/convergence</item>
+        <item>@font/dekko</item>
+        <item>@font/farsan</item>
+        <item>@font/fauna_one</item>
+    </array>
+</resources>

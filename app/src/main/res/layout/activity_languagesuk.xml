@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".languagesuk"
+    android:background="#12222C"
+    >
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/kuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/bungee_shade"
+                android:text="important english phrases"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="40dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignTop="@+id/kuku"
+                android:layout_marginTop="30dp"
+                android:id="@+id/hello"
+                android:backgroundTint="#90BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/singadollar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/fauna_one"
+                    android:gravity="center"
+                    android:text="Hello"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textSize="35dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/howmuch"
+                android:backgroundTint="#90BA2025"
+
+                >
+                <TextView
+                    android:id="@+id/howmuch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="How much?"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/fauna_one"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/whereisthe.."
+                android:backgroundTint="#90BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/Whereis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="Where is"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/fauna_one"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/goodmor"
+                android:backgroundTint="#90BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/good1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="Good morning"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/fauna_one"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/please"
+                android:backgroundTint="#90BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/please1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="Please"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/fauna_one"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#C61818"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/thankyou"
+                android:backgroundTint="#90BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/thankyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="Thank you"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/fauna_one"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="40dp"
+                android:background="#00E8E0E0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/nothing"
+                android:backgroundTint="#00BA2025"
+
+                >
+
+                <TextView
+                    android:id="@+id/nonono"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text=""
+                    android:textSize="50dp"
+                    android:fontFamily="@font/farsan"
+                    android:textColor="#FFFF"
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemBackground="@color/favcolor"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white" />
+
+</RelativeLayout>

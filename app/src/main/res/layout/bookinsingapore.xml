@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#00015693"
+    android:layout_marginTop="35dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="325dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="150dp"
+        android:backgroundTint="#8B2F2F"
+        app:cardCornerRadius="30dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            app:cardCornerRadius="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            >
+        <ImageView
+
+            android:id="@+id/logoforbook"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/info"
+            android:scaleType="fitXY"
+            />
+
+            </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/advent_pro"
+            android:text="hotel name"
+            android:textColor="#FFF"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/logoforweb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="75dp"
+            />
+        <ImageView
+            android:id="@+id/logoforposi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="75dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

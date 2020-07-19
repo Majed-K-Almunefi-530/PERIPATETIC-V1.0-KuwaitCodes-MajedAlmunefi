@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us"
+    android:background="#12222C"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:fontFamily="@font/farsan"
+        android:id="@+id/hellouser"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/callus1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#8B2F2F"
+        >
+
+
+        <ImageView
+            android:id="@+id/callus"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center"
+            android:src="@drawable/callus"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mail1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#8B2F2F"
+        >
+
+
+        <ImageView
+            android:id="@+id/masseagaus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/share"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/visitus"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#8B2F2F"
+        >
+
+
+        <ImageView
+            android:id="@+id/visitu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/location"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
