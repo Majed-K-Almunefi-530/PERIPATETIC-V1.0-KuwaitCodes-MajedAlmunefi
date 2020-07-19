@@ -57,7 +57,7 @@ public class ResturanteInOrlando extends AppCompatActivity {
         rv.setLayoutManager(lm);
 
 
-        resAdapterldn booker = new resAdapterldn(books,this);
+        resorlandoadapter booker = new resorlandoadapter(books,this);
         rv.setAdapter(booker);
 
 
