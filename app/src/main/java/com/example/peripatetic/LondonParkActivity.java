@@ -129,13 +129,13 @@ public class LondonParkActivity extends AppCompatActivity {
 
                         if(drawerItem.getIdentifier ()==3) {
 
-                            Intent c = new Intent (LondonParkActivity.this, resLondon.class);
+                            Intent c = new Intent (LondonParkActivity.this, LondonParkActivity.class);
                             startActivity (c);
                         }
 
                         if(drawerItem.getIdentifier ()==4) {
 
-                            Intent d = new Intent (LondonParkActivity.this, LondonParkActivity.class);
+                            Intent d = new Intent (LondonParkActivity.this, resLondon.class);
                             startActivity (d);
                         }
 
