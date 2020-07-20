@@ -73,7 +73,7 @@ public class ResturanteInOrlando extends AppCompatActivity {
 
         @SuppressLint("ResourceAsColor") AccountHeader hr = new AccountHeaderBuilder()
                 .withActivity (this)
-                .withHeaderBackground (R.drawable.amarica)
+                .withHeaderBackground (R.drawable.usa)
                 .withTextColorRes (R.color.color8)
                 .addProfiles(new ProfileDrawerItem().withName ("PERIPATETIC").withEmail (user).withIcon (R.drawable.logoforapp))
                 .build ();
