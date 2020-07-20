@@ -91,7 +91,7 @@ public class activitybookhotel extends AppCompatActivity {
 
         @SuppressLint("ResourceAsColor") AccountHeader hr = new AccountHeaderBuilder()
                 .withActivity (this)
-                .withHeaderBackground (R.drawable.singapore)
+                .withHeaderBackground (R.drawable.amarica)
                 .withTextColorRes (R.color.dark)
                 .addProfiles(new ProfileDrawerItem().withName ("PERIPATETIC").withEmail (user).withIcon (R.drawable.logoforapp))
                 .build ();
