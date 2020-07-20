@@ -29,6 +29,13 @@ public class AusLang extends AppCompatActivity {
     EditText hello;
     CardView yes;
     TextView me;
+    CardView c1;
+    CardView c2;
+    CardView c3;
+    CardView c4;
+    CardView c5;
+    CardView c6;
+
 
 
     @Override
@@ -41,6 +48,16 @@ public class AusLang extends AppCompatActivity {
         yes =findViewById(R.id.button);
         me = findViewById(R.id.res);
 
+
+        c1=(CardView)findViewById(R.id.hello);
+        c2=(CardView)findViewById(R.id.howmuch);
+        c3=(CardView)findViewById(R.id.whereisthe__);
+        c4=(CardView)findViewById(R.id.goodmor);
+        c5=(CardView)findViewById(R.id.please);
+        c6=(CardView)findViewById(R.id.thankyou);
+
+
+
         t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
@@ -49,6 +66,7 @@ public class AusLang extends AppCompatActivity {
                 }
             }
         });
+
 
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,6 +105,54 @@ public class AusLang extends AppCompatActivity {
 
 
 
+        c1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "hello";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+        c2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "how much";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+        c3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "where is";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+        c4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "good morning";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+        c5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "Please";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+        c6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = "Thank you";
+                Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
 
 
 
