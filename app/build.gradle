@@ -47,6 +47,8 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
 
 
+    implementation 'com.github.iammannan:TranslateAPI:1.1'
+
 
     //androidTestImplementation 'androidx.test.espresso:runner:0.5'
     //androidTestImplementation 'com.android.support.test:runner:0.5'

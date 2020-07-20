@@ -57,7 +57,7 @@ public class singaporeexchange extends AppCompatActivity {
                         startActivity(b);
                         break;
                     case R.id.goback:
-                        Intent c = new Intent(singaporeexchange.this,ukinfoorbook.class);
+                        Intent c = new Intent(singaporeexchange.this,singaporecitychoose.class);
                         startActivity(c);
                         break;
                     case R.id.action_nearby:

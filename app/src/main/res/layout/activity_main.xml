@@ -15,10 +15,6 @@
         android:layout_centerInParent="true"
         android:src="@drawable/logoforapp" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:id="@+id/hhhhhhh"
-        android:text="hello"/>
+
 
 </RelativeLayout>
